@@ -25,8 +25,8 @@ So, before execution we have some pre-requisites that we need to download or ins
 # Steps to execute.
 1. Install the prerequisites mentioned above.
 2. open anaconda prompt and create a new environment.
-  - conda create -c conda-forge -n sca python=3.8 numpy gdown scanpy pytorch pandas matplotlib seaborn pillow scipy=1.8.1
-  - conda activate "sca"
+  - conda create -c conda-forge -n py38 python=3.8 numpy gdown scanpy pytorch pandas matplotlib seaborn pillow scipy=1.8.1
+  - conda activate "py38"
 3. Install necessary libraries from requirements.txt file provided.
 4. Run pip install -r requirements.txt or conda install requirements.txt (Requirements.txt is a text file consisting of all the necessary libraries required for executing this python file. If it gives any error while installing libraries, you might need to install them individually.)
 5. Run main_image.py, if you pass an image;
